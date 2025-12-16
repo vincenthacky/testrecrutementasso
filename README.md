@@ -104,9 +104,10 @@ Créer un fichier `.env` à la racine du projet :
 
 ```bash
 PORT=3000
-DATABASE_URL=postgresql://neondb_owner:npg_hcA2QWY6MdjV@ep-empty-meadow-abh35zer-pooler.eu-west-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+DATABASE_URL=<URL_FOURNIE_PAR_EMAIL>
 ```
 
+> 👉 **Important** : L'URL de la base de données PostgreSQL sera fournie par email pour des raisons de sécurité.  
 > 👉 **Simplicité** : Le projet utilise `DATABASE_URL` pour simplifier la configuration de la base de données.
 
 ---
