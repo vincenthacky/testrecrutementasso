@@ -166,14 +166,20 @@ npm run start:prod
 ## 🌐 Accès à l'API
 
 ### 🌍 URL principale
-👉 **http://localhost:3000**
+👉 **http://localhost:3000** (développement local)
 
 > 💡 **Redirection automatique** : Vous serez directement redirigé vers la documentation Swagger. C'est volontaire pour faciliter l'accès au travail réalisé dans le cadre de ce test technique.
+
+### 🚀 **Démonstration en ligne**
+👉 **https://testrecrutementasso.onrender.com/**
+
+> 🎯 **Test direct** : L'API est déployée et accessible en ligne pour tester immédiatement les fonctionnalités sans installation locale.
 
 ### 📖 Documentation Swagger
 
 **Swagger est activé automatiquement** sur plusieurs routes :
 
+#### 🏠 **Local (après installation)**
 | URL | Description |
 |-----|-------------|
 | **http://localhost:3000/** | Route principale |
@@ -181,6 +187,15 @@ npm run start:prod
 | **http://localhost:3000/api/swagger** | Route alternative |
 | **http://localhost:3000/api/documentation** | Route descriptive |
 | **http://localhost:3000/documentations** | Route courte |
+
+#### 🌐 **En ligne (test direct)**
+| URL | Description |
+|-----|-------------|
+| **https://testrecrutementasso.onrender.com/** | Route principale |
+| **https://testrecrutementasso.onrender.com/api/docs** | Route classique |
+| **https://testrecrutementasso.onrender.com/api/swagger** | Route alternative |
+| **https://testrecrutementasso.onrender.com/api/documentation** | Route descriptive |
+| **https://testrecrutementasso.onrender.com/documentations** | Route courte |
 
 **Fonctionnalités Swagger :**
 - 🧪 **Tester les endpoints** directement
